@@ -8,7 +8,7 @@ app.use(cors({
 
 let leet = require('./leetcode');
 app.get('/', (req, res) => {
-    res.send(`<b>API URL:</b> https://faisal-leetcode-api.cyclic.app/<b style="color:crimson;">yourLeetcodeUsername</b>`)
+    res.send(`<b>API URL:</b> https://leetcode-rating-api.glitch.me/<b style="color:crimson;">&lt;username&gt;</b>`)
 });
 app.get('/:id', leet.leetcode);
 
